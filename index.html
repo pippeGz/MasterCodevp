@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html languaje="es">
+    <head>
+        <title>MasterCode</title>
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" href="css/uikit.css" />
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/uikit.min.js"></script>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="uk-grid">
+                <nav class="uk-navbar uk-width-1-1 uk-text-bold">
+                    <a href="" class="uk-navbar-brand"> MARCA </a>
+                    <div class="uk-navbar-flip">
+                        <ul class="uk-navbar-nav uk-hidden-small" data-uk-scrollspy-nav="{closest:'li', smoothscroll:true}">
+                            <li><a href="#home">Inicio</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                            <li><a href="#informacion">Información</a></li>
+                           <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                        <a href="#idoffcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+                    </div>
+                </nav>
+            </div>
+            <div id="idoffcanvas" class="uk-offcanvas">
+                <div class="uk-offcanvas-bar"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis optio error ratione labore, libero dicta possimus assumenda dolor iusto. Perspiciatis ab deleniti sequi eaque quidem aspernatur molestiae facilis necessitatibus modi.</p></div>
+            </div>
+        	<div class="uk-cover-background uk-position-relative uk-container-center" data-uk-scrollspy="{cls:'uk-animation-fade'}" id="home">
+        	    <img class="uk-height-viewport uk-responsive" src="images/img3-min.jpg" width="100%" height="100%">
+                <div class="uk-position-cover uk-flex-center uk-flex-middle">
+                    <!--<a href="#uno" data-uk-smooth-scroll="{offset: 90}">uno</a>
+                    <a href="#dos" data-uk-smooth-scroll="{offset: 90}">dos</a>
+                    <a href="#tres" data-uk-smooth-scroll="{offset: 90}">tres</a>-->   
+                    
+                </div>
+                
+        	</div>
+            <div class="uk-cover-background uk-position-relative uk-container-center" data-uk-scrollspy="{cls:'uk-animation-slide-bottom'}" id="servicios">
+                <img class="uk-height-viewport" src="images/img4-min.jpg" width="100%" height="100%">
+            </div>
+            <div class="uk-cover-background uk-position-relative uk-container-center" id="informacion">
+                <img class="uk-height-viewport" src="images/img2-min.jpg" width="100%" height="100%">
+            </div>
+            <div class="uk-cover-background uk-position-relative uk-container-center" id="contacto">
+                <img class="uk-height-viewport" src="images/img7-min.jpg" width="100%" height="100%">
+            </div>
+        </div>
+    </body>
+</html>
