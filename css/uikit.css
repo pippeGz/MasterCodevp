@@ -1460,6 +1460,7 @@ a.uk-panel-box-secondary:hover {
 /* Sub-object: `uk-nav-divider`
  ========================================================================== */
 .uk-nav-divider {
+  color: #ffffff;
   margin: 9px 15px;
 }
 /* Sub-object: `uk-nav-sub`
@@ -1715,7 +1716,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   text-decoration: none;
   /* 1 */
   height: 50px;/*pippe*/
-  padding: 5px 15px;/*pippe*/
+  padding: 5px 15px 0px 15px;/*pippe*/
   line-height: 40px;
   /* 2 */
   color: #ffffff;/*pippe*/
@@ -1822,7 +1823,6 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  */
 .uk-navbar-brand:hover,
 .uk-navbar-brand:focus {
-  font-size: 35px;/*pippe*/
   z-index: 11;/*pippe*/
   color: #F4E8FF;/*pippe*/
   text-decoration: none;
@@ -7112,6 +7112,38 @@ a.uk-thumbnail:focus {
 }
 .informacion{
   background-color: #f2992e;
+}
+.logos a{
+  margin: 10px 5px 5px 5px;
+}
+.boton-facebook:hover{
+  background-color: #4c5a7b;
+  color: #ffffff;
+}
+.boton-googleplus:hover{
+  background-color: #b33122;
+  color: #ffffff;
+}
+.boton-twitter:hover{
+  background-color: #20b9e8;
+  color: #ffffff;
+}
+.width-logo{
+  width: 50%;
+}
+.height-logo{
+  height: 25%;
+}
+.titulo-offcanvas{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #ffffff; 
+}
+.titulo-offcanvas h1{
+  color: #ffffff;
+}
+.titulo-offcanvas h3{
+  color: #d1d6ce;
 }
 .width-max{
   width: 100%;

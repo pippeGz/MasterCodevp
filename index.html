@@ -12,7 +12,10 @@
         <div class="container">
             <div class="uk-grid">
                 <nav class="uk-navbar uk-width-1-1 uk-text-bold">
-                    <a href="" class="uk-navbar-brand"> MasterCode_ </a>
+                    <div class="uk-visible-hover">
+                        <a href="#home" class="uk-navbar-brand"> MasterCode_ </a>
+                        <div class="uk-hidden"><h3><!--subtitulo hidden--></h3></div>
+                    </div>
                     <div class="uk-navbar-flip">
                         <ul class="uk-navbar-nav uk-hidden-small" data-uk-scrollspy-nav="{closest:'li', smoothscroll:true}">
                             <li><a href="#home">Inicio</a></li>
@@ -26,15 +29,26 @@
                 </nav>
             </div>
             <div id="idoffcanvas" class="uk-offcanvas">
-                <!-- aqui va los el resto de la nav -->
-                <div class="uk-offcanvas-bar">
+                <div class="uk-offcanvas-bar uk-text-center">
+                    <img class="uk-border-rounded width-logo height-logo" src="images/logomastercode.jpg" >
+                    <hgroup class="titulo-offcanvas">
+                        <h1 class="uk-text-bold">MasterCode_</h1>
+                        <h3>Software Development</h3>
+                    </hgroup>
                     <ul class="uk-nav uk-nav-offcanvas">
+                        <li class="uk-nav-divider"></li>
                         <li><a href="#home">Inicio</a></li>
                         <li><a href="#servicios">Servicios</a></li>
                         <li><a href="#portafolio">Portafolio</a></li>
                         <li><a href="#informacion">Información</a></li>
                         <li><a href="#contacto">Contacto</a></li>
+                        <li class="uk-nav-divider"></li>
                     </ul>
+                    <figure class="logos">
+                        <a href="https://www.facebook.com/pages/Master-Code/881360631882713" class="uk-icon-button uk-icon-facebook boton-facebook"></a>
+                        <a href="https://plus.google.com/u/0/107490488009159788740/posts" class="uk-icon-button uk-icon-google-plus boton-googleplus"></a>
+                        <a href="https://twitter.com/mastercod3" class="uk-icon-button uk-icon-twitter boton-twitter"></a>
+                    </figure>
                 </div>
             </div>
         	<div class="uk-cover-background uk-position-relative uk-container-center" id="home">
