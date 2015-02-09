@@ -1617,7 +1617,9 @@ ul.uk-nav-sub {
  * Items
  */
 .uk-nav-offcanvas > li > a {
-  color: #cccccc;
+  color: #ffffff;/*pippe*/
+  font-size: 17.5px;/*pippe*/
+  text-align: center;/*pippe*/
   padding: 10px 15px;
 }
 /*
@@ -1629,8 +1631,8 @@ ul.uk-nav-sub {
 .uk-nav-offcanvas > .uk-open > a,
 html:not(.uk-touch) .uk-nav-offcanvas > li > a:hover,
 html:not(.uk-touch) .uk-nav-offcanvas > li > a:focus {
-  background: #404040;
-  color: #ffffff;
+  background-color: #f5f5f5;/*pippe*/
+  color: #36465d;/*pippe*/
   /* 2 */
   outline: none;
 }
@@ -1669,7 +1671,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  ========================================================================== */
 .uk-navbar {
 
-  background: rgba(0, 0, 0, 0.5);;
+  background: rgba(54, 70, 93, 0.5);/*pippe*/
   color: #444444;
   position: fixed;
   z-index: 10;
@@ -1734,10 +1736,11 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-navbar-nav > li:hover > a,
 .uk-navbar-nav > li > a:focus,
 .uk-navbar-nav > li.uk-open > a {
-  background-color: #f5f5f5;
-  color: #444444;
+  background-color: #f5f5f5;/*pippe*/
+  color: #36465d;/*pippe*/
   /* 3 */
   outline: none;
+  margin: 5px;/*pippe*/
   border-radius: 10px;/*pippe*/
 }
 /* OnClick */
@@ -1749,6 +1752,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-navbar-nav > li.uk-active > a {
   background-color: #f5f5f5;
   color: #444444;
+  margin: 5px;/*pippe*/
   border-radius: 10px;/*pippe*/
 }
 /* Sub-objects: `uk-navbar-nav-subtitle`
@@ -1807,7 +1811,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 /* Sub-objects: `uk-navbar-brand`
  ========================================================================== */
 .uk-navbar-brand {
-  margin-top: 5px;/*pippe*/
+  margin-top: 10px;/*pippe*/
   font-size: 30px;/*pippe*/
   color: #ffffff;/*pippe*/
   text-decoration: none;
@@ -1818,7 +1822,9 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  */
 .uk-navbar-brand:hover,
 .uk-navbar-brand:focus {
-  color: #444444;
+  font-size: 35px;/*pippe*/
+  z-index: 11;/*pippe*/
+  color: #F4E8FF;/*pippe*/
   text-decoration: none;
   /* 2 */
   outline: none;
@@ -1826,6 +1832,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 /* Sub-object: `uk-navbar-toggle`
  ========================================================================== */
 .uk-navbar-toggle {
+  margin-top: 5px;/*pippe*/
   font-size: 30px;/*pippe*/
   color: #ffffff;/*pippe*/
   text-decoration: none;
@@ -1836,7 +1843,9 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  */
 .uk-navbar-toggle:hover,
 .uk-navbar-toggle:focus {
-  color: #444444;
+  color: #F4E8FF;/*pippe*/
+  font-size: 35px;/*pippe*/
+  z-index: 11;/*pippe*/
   text-decoration: none;
   /* 2 */
   outline: none;
@@ -6335,7 +6344,7 @@ a.uk-thumbnail:focus {
   /* 2 */
   width: 270px;
   max-width: 100%;
-  background: #333333;
+  background: #36465d;/*pippe*/
   /* 3 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -7094,6 +7103,19 @@ a.uk-thumbnail:focus {
     page-break-after: avoid;
   }
 }
+/*clases personalizadas (pippe)*/
 .servicios{
-  background-color: #56bc8a
+  background-color: #56bc8a;
+}
+.portafolio{
+  background-color: #ffffff;
+}
+.informacion{
+  background-color: #f2992e;
+}
+.width-max{
+  width: 100%;
+}
+.height-max{
+  height: 100%;
 }
