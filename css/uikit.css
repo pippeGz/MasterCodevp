@@ -7,6 +7,17 @@
  * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
  * 3. Style
  */
+/*funtes personalizadas (pippe)*/
+
+@font-face{
+  font-family: "8bitregular";
+  src: url("../fonts/8bitOperatorPlus-Regular.ttf");
+}
+@font-face{
+  font-family: "8bitbold";
+  src: url("../fonts/8bitOperatorPlusSC-Bold.ttf");
+}
+
 html {
   /* 1 */
   font: normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -7128,10 +7139,9 @@ a.uk-thumbnail:focus {
   background-color: #20b9e8;
   color: #ffffff;
 }
-.width-logo{
+.logomastercode{
+  margin-top: 10px;
   width: 50%;
-}
-.height-logo{
   height: 25%;
 }
 .titulo-offcanvas{
@@ -7141,6 +7151,9 @@ a.uk-thumbnail:focus {
 }
 .titulo-offcanvas h1{
   color: #ffffff;
+}
+.code{
+  font-family: "8bitbold";
 }
 .titulo-offcanvas h3{
   color: #d1d6ce;
