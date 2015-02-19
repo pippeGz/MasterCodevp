@@ -3080,27 +3080,30 @@ select.uk-form-width-mini {
   /* 2 */
   margin: 0;
   /* 3 */
-  border: none;
+  border:1px solid #ffffff;/*pippe*/
+  border-radius: 5px;/*pippe*/
+  width: 300px;/*pippe*/
+  height: 50px;/*pippe*/
   /* 4 */
   overflow: visible;
   /* 5 */
   font: inherit;
-  color: #444444;
+  color: #ffffff;/*pippe*/
   /* 6 */
   text-transform: none;
   /* 7 */
   display: inline-block;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0 12px;
-  background: #eeeeee;
+  padding-top: 7px;/*pippe*/
+  background-color: transparent;/*pippe*/
   vertical-align: middle;
   /* 8 */
   line-height: 30px;
   /* 9 */
   min-height: 30px;
   /* 10 */
-  font-size: 1rem;
+  font-size: 25px;/*pippe*/
   /* 11 */
   text-decoration: none;
   text-align: center;
@@ -7139,6 +7142,16 @@ a.uk-thumbnail:focus {
   background-color: #20b9e8;
   color: #ffffff;
 }
+
+.container-textos-home{
+  margin-top: 16%;
+  width: 100%;
+  height: 60px;
+  color: #ffffff;
+}
+.container-texto-presentacion-dos{
+  margin-top: 100px;
+}
 .logomastercode{
   margin-top: 10px;
   width: 50%;
@@ -7163,4 +7176,10 @@ a.uk-thumbnail:focus {
 }
 .height-max{
   height: 100%;
+}
+.texto-presentacion-uno{
+  font-size: 60px;
+}
+.texto-presentacion-dos{
+  font-size: 22px;
 }
