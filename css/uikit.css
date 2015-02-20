@@ -7165,6 +7165,30 @@ a.uk-thumbnail:focus {
 .titulo-offcanvas h1{
   color: #ffffff;
 }
+.container-titulo-servicios{
+  margin-top: 105px;
+}
+.container-servicios{
+  padding-top: 50px;
+  width: 100%;
+  padding-bottom: 150px;
+}
+.titulo-servicios{
+  color: #ffffff;
+  font-size: 50px;
+  /*padding-left: 20px;*/
+}
+.titulo-servicio{
+  color: #ffffff;
+}
+.parrafo-servicio{
+  color: #ffffff;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 15.5px;
+
+}
 .code{
   font-family: "8bitbold";
 }
