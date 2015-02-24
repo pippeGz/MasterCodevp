@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="css/uikit.css" />
         <script src="js/jquery-1.11.2.min.js"></script>
         <script src="js/uikit.min.js"></script>
+        <!-- plugins externos -->
+        <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
     </head>
     <body>
         
@@ -49,7 +51,7 @@
                 </div>
             </div>
         	<div class="uk-cover-background uk-position-relative" id="home">
-        	    <img class="uk-height-viewport uk-responsive width-max height-max" src="images/img3-min.jpg">
+        	    <img class="uk-height-viewport uk-responsive width-max height-max" src="images/background/img3-min.jpg">
                 <div class="uk-position-cover uk-grid container-textos-home uk-text-center">
                     <div class="uk-width-1-1 ">
                         <p class="texto-presentacion-uno uk-text-bold">Master <span class="uk-text-bold code">Code_</span></p>
@@ -65,37 +67,65 @@ Móvil y Web. En Una Misma Empresa</p>
             </div>
             <div class="uk-cover-background uk-height-viewport servicios width-max height-max" id="servicios">
                 <div class="uk-grid uk-text-center">
-                    <div class="uk-width-1-1 container-titulo-servicios">
+                    <div class="uk-width-1-1 container-titulos">
                         <h1 class="titulo-servicios">Nuestros servicios</h1>
                     </div>
                 </div>
                 <div class="uk-grid container-servicios uk-text-center">
                     <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 servicio-optimizacion">
-                        <img src="images/optimizacion.png">
+                        <img src="images/services/optimizacion.png">
                         <h1 class="titulo-servicio">Optimización</h1>
                         <p class="parrafo-servicio">Estamos dispuestos a atender tus proyectos obsoletos. Tráiganos su proyecto o idea que se quedó en el pasado y nosotros le daremos un nuevo enfoque con tendencias nuevas de desarrollo como lo son Responsive Design, Retina Design, mobile First y el nuevo Material Design… todo a un costo muy bajo.</p>
                     </div>
                     <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 servicio-desarrollo">
-                        <img src="images/desarrollo.png">
+                        <img src="images/services/desarrollo.png">
                         <h1 class="titulo-servicio">Desarrollo</h1>
                         <p class="parrafo-servicio">Estamos capacitados en todos los campos tecnológicos como: Estrategia y marketing online, Diseño de interfaces y experiencias de usuario (UX), Diseño web, Administración de servidores, Frontend profesional, Bakend profesional, y programación en dispositivos móviles. Somos los mejores en lo que hacemos y tratamos de mantenernos actualizados para ofrecerle lo mejor a su negocio.</p>
                     </div>
                     <div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 servicio-analisis">
-                        <img src="images/analisis.png">
+                        <img src="images/services/analisis.png">
                         <h1 class="titulo-servicio">Análisis</h1>
                         <p class="parrafo-servicio">Ofrecemos también el servicio de asesoría a su negocio y proporcionamos las mejores estrategias para que su negocio no solo crezca a nivel tecnológico sino que también por ejemplo pueda fidelizar a sus clientes y aumentar sus ventas, denos la oportunidad de poder cumplir con las metas de su negocio.</p>
                     </div>
                 </div>
             </div>
             <div class="uk-cover-background uk-height-viewport portafolio width-max height-max" id="portafolio">
-                
+                <div class="uk-grid uk-text-center">
+                    <div class="uk-width-1-1 container-titulos">
+                        <h1 class="titulo-portafolio">Nuestros Trabajos</h1>
+                    </div>
+                </div>
+                <div class="uk-grid uk-text-center container-portafolio">
+                    <div class="uk-width-1-1">
+                        <section id="dg-container" class="dg-container">
+                            <div class="dg-wrapper">
+                                <a href="http://mastercode.890m.com/"><img src="images/portfolio/mastercode1.png" alt="image01"><div>http://mastercode.890m.com/</div></a>
+                                <a href="http://mastercodepk.honor.es/"><img src="images/portfolio/mastercode2.png" alt="image02"><div>http://mastercodepk.honor.es/</div></a>
+                                <a href="http://pippegz.github.io/"><img src="images/portfolio/pippe-page.png" alt="image03"><div>http://pippegz.github.io/</div></a>
+                            </div>
+                            <!--nav>    
+                                <span class="dg-prev">&lt;</span>
+                                <span class="dg-next">&gt;</span>
+                            </nav-->
+                        </section>
+                    </div>
+                </div>
             </div>
             <div class="uk-cover-background uk-height-viewport informacion width-max height-max" id="informacion">
                
             </div>
             <div class="uk-cover-background uk-position-relative uk-container-center" id="contacto">
-                <img class="uk-height-viewport width-max height-max" src="images/img7-min.jpg">
+                <img class="uk-height-viewport width-max height-max" src="images/background/img7-min.jpg">
             </div>
         </div>
     </body>
+    <!-- Slideshow portafolio -->
+    <script type="text/javascript" src="js/jquery.gallery.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('#dg-container').gallery({
+                autoplay    :   true
+            });
+        });
+    </script/>
 </html>
