@@ -7166,6 +7166,8 @@ a.uk-thumbnail:focus {
 }
 .container-titulos{
   margin-top: 105px;
+  /*width: 60%;*/
+  /*border-bottom: 1px solid #ffffff;*/
 }
 .container-servicios{
   padding-top: 50px;
@@ -7177,12 +7179,26 @@ a.uk-thumbnail:focus {
   width: 100%;
   padding-bottom: 50px; 
 }
-.titulo-servicios{
+.container-equipo{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.titulo-blanco{
   color: #ffffff;
   font-size: 50px;
-  /*padding-left: 20px;*/
+  /*padding-left: 20px;*/ 
 }
-.titulo-portafolio{
+.nombre-avatar{
+  color: #ffffff;
+}
+.twitter-avatar{
+  font-size: 20px;
+}
+.parrafo-avatar{
+  color: #EFEFEF;
+  font-size: 15px;
+}
+.titulo-negro{
   font-size: 50px;
 }
 .titulo-servicio{
@@ -7212,6 +7228,16 @@ a.uk-thumbnail:focus {
 }
 .texto-presentacion-dos{
   font-size: 22px;
+}
+.texto-informacion{
+  color: #ffffff;
+  text-align: justify;
+  margin-top: 60px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 30px;
+  font-size: 17.5px;
+  border-bottom: 4px solid #E5E5E5;
 }
 /*sliderportafolio*/
 .dg-container{
