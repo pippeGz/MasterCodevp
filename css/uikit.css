@@ -7125,7 +7125,7 @@ a.uk-thumbnail:focus {
   background-color: #ffffff;
 }
 .informacion{
-  background-color: #f2992e;
+  background-color: #36465d;
 }
 .logos a{
   margin: 10px 5px 5px 5px;
@@ -7142,11 +7142,80 @@ a.uk-thumbnail:focus {
   background-color: #20b9e8;
   color: #ffffff;
 }
+.boton-form{
+  /* 1 */
+  -webkit-appearance: none;
+  /* 2 */
+  margin-top: 25px;
+  /* 3 */
+  border:1px solid #ffffff;/*pippe*/
+  width: 38%;/*pippe*/
+  height: 40px;/*pippe*/
+  /* 4 */
+  overflow: visible;
+  /* 5 */
+  font: inherit;
+  color: #ffffff;/*pippe*/
+  /* 6 */
+  text-transform: none;
+  /* 7 */
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 5px;/*pippe*/
+  background-color: #00a8e6;/*pippe*/
+  vertical-align: middle;
+  /* 8 */
+  line-height: 25px;
+  /* 9 */
+  min-height: 30px;
+  /* 10 */
+  font-size: 20px;/*pippe*/
+  /* 11 */
+  text-decoration: none;
+  text-align: center;
+}
+.boton-form:hover,
+.boton-form:focus {
+  background-color: #35b3ee;
+  color: #ffffff;
+  /* 2 */
+  outline: none;
+  /* 3 */
+  text-decoration: none;
+}
+/* Active */
+.boton-form:active,
+.boton-form.uk-active {
+  background-color: #35b3ee;
+  color: #ffffff;
+}
 .container-textos-home{
   margin-top: 16%;
   width: 100%;
   height: 60px;
   color: #ffffff;
+}
+.container-textos-contacto{
+  margin-top: 105px;
+  color: #ffffff; 
+  height: 155px;
+}
+.container-texto-contacto{
+  margin-top: 65px;
+  color: #ffffff; 
+}
+.texto-contacto{
+  font-size: 16px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.redes-texto-contacto{
+  font-size: 22px;
+  margin-top: 30px;
+  margin-left: 20%;
+  margin-right: 20%; 
+  padding-bottom: 10px;
 }
 .container-texto-presentacion-dos{
   margin-top: 100px;
@@ -7156,6 +7225,11 @@ a.uk-thumbnail:focus {
   width: 50%;
   height: 25%;
 }
+.formulario-contacto{
+  margin-top: 30px;
+  width: 70%;
+  height: 100%;
+}
 .titulo-offcanvas{
   margin-top: 25px;
   margin-bottom: 25px;
@@ -7164,10 +7238,10 @@ a.uk-thumbnail:focus {
 .titulo-offcanvas h1{
   color: #ffffff;
 }
+
 .container-titulos{
   margin-top: 105px;
-  /*width: 60%;*/
-  /*border-bottom: 1px solid #ffffff;*/
+  /*height: 140px;*/
 }
 .container-servicios{
   padding-top: 50px;
@@ -7182,6 +7256,9 @@ a.uk-thumbnail:focus {
 .container-equipo{
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.container-form-contacto{
+  width: 100%;
 }
 .titulo-blanco{
   color: #ffffff;
@@ -7238,6 +7315,17 @@ a.uk-thumbnail:focus {
   padding-bottom: 30px;
   font-size: 17.5px;
   border-bottom: 4px solid #E5E5E5;
+}
+.titulo-container{
+  font-size: 60px;
+}
+.footer{
+  margin-top: 60px;
+  background-color: #252525;
+  height: 100%;
+}
+.texto-footer{
+  margin-top: 60px;
 }
 /*sliderportafolio*/
 .dg-container{
